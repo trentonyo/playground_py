@@ -1,0 +1,20 @@
+features to finish (in read order on GUI):
+
+- link everything to Generate button
+- provide some kind of feedback while simulations are running
+
+- create "Learn from that" feature that synapses things from the output log
+--- maybe the output log should be a listbox then? so you can select ones to learn from? or perhaps it would open a new window!
+- fix up "<params>" key you included hardcoded, it is not used and needs to be filtered out of the simulations
+- create output save feature
+
+
+
+QA:
+
+x	try loading a file other than json
+x	try using a shit load of special characters
+x	try using negatives in the inputs
+x	try using letters in the number inputs
+x	try hitting generate without a sim type selected
+x	
